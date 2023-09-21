@@ -1,8 +1,8 @@
 type: code
 files:
-- name: main.py
-  visible: true
-  text: "import pandas as pd\n\npenguin_sample = {'species': {0: 'Gentoo', 1: 'Adelie',\
+  - name: main.py
+    visible: true
+    text: "import pandas as pd\n\npenguin_sample = {'species': {0: 'Gentoo', 1: 'Adelie',\
     \ 2: 'Gentoo', 3: 'Gentoo', 4: 'Adelie', 5: 'Adelie',\n                      \
     \        6: 'Adelie', 7: 'Gentoo', 8: 'Chinstrap', 9: 'Gentoo', 10: 'Gentoo',\
     \ 11: 'Chinstrap',\n                              12: 'Adelie', 13: 'Adelie',\
@@ -18,7 +18,7 @@ files:
     \ 12: 191.0, 13: 190.0, 14: 214.0,\n                                        15:\
     \ 184.0, 16: 203.0, 17: 210.0, 18: 191.0, 19: 212.0}}\n\ndf = pd.DataFrame(penguin_sample)\n\
     \n# your code here\ncomp_results = ..."
-  learner_created: false
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12590#comment
 status: Solved
 record: -1

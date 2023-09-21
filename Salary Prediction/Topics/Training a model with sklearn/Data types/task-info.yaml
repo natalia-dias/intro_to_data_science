@@ -1,16 +1,16 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: <code>pandas</code> dataframes
-- text: <code>numpy</code> arrays
-- text: <code>scipy</code> matrices
+  - text: <code>pandas</code> dataframes
+  - text: <code>numpy</code> arrays
+  - text: <code>scipy</code> matrices
 files:
-- name: main.py
-  visible: true
-  text: |+
-    #  You can experiment here, it won’t be checked
-
-  learner_created: false
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/14679#comment
 status: Solved
 record: -1
