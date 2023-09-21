@@ -1,0 +1,25 @@
+type: dataset
+custom_name: Rock or Mine?
+files:
+  - name: main.py
+    visible: true
+    text: "#  write your code here \n\n"
+    learner_created: false
+  - name: data/sample/input.txt
+    visible: true
+    text: |
+      ,null_deg,sixty_deg,ninety_deg,straight_angle,twoforty_deg,labels
+      0,0.740204,0.981484,0.605161,0.67712,0.927914,M
+      1,0.788051,0.68378,0.504151,0.713523,0.690165,M
+      2,0.744574,0.668011,0.564707,0.804288,0.713663,R
+      3,0.560475,0.487072,0.103085,0.668011,0.805988,R
+    learner_created: false
+  - name: data/dataset/input.txt
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/13366#comment
+status: Solved
+feedback:
+  message: <html>It seems the difference between rock and mine objects is quite obvious...</html>
+  time: "Thu, 27 Apr 2023 15:11:53 UTC"
+record: -1

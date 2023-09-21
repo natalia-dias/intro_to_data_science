@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code>.query()</code>
+  - text: <code>.value_counts()</code>
+  - text: <code>.sort_index()</code>
+  - text: <code>.set_index()</code>
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15182#comment
+status: Solved
+record: -1
+custom_name: How did it happen?
+local_check: false

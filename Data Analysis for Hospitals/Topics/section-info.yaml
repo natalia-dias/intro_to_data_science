@@ -1,0 +1,13 @@
+content:
+- Summarizing numeric columns
+- Working with missing values
+- Handling missing values
+- Slicing
+- Summarizing categorical columns
+- Reshaping and Pivot Tables
+- Grouping and aggregating data in pandas
+- Sorting a list
+- Loop control statements
+- Series
+- Searching within a pandas DataFrame
+- Sorting Data in Pandas

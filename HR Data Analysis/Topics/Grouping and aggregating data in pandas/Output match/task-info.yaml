@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - <code>df.C.agg('nunique')</code>
+  - "<code>df.groupby(['A']).agg({'B':'mean'}).max()</code>"
+  - "<code>df.agg({'C': 'min'})</code>"
+  - <code>df.B.agg('unique')</code>
+options:
+  - "C    0.2 dtype: float64"
+  - "array([ 3,  2,  1,  0, -1], dtype=int64)"
+  - 4
+  - "B    1.5 dtype: float64"
+files:
+  - name: main.py
+    visible: true
+    text: |+
+      #  You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12588#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

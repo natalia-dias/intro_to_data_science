@@ -1,0 +1,21 @@
+<h2>Inversion</h2>
+<div class="step-text">
+<p></p>
+<p>Look at a part of the Rain in Australia dataset:</p>
+<pre><code class="language-python">a_rains.head()</code></pre>
+<p>Output:</p>
+<pre><code class="language-no-highlight">+----+------------+------------+-----------+-----------+------------+---------------+-----------------+-------------+
+|    | Date       | Location   |   MinTemp |   MaxTemp |   Rainfall | WindGustDir   |   WindGustSpeed | RainToday   |
+|----+------------+------------+-----------+-----------+------------+---------------+-----------------+-------------|
+|  0 | 2017-06-04 | Perth      |      12.1 |      22.2 |        0   | SSE           |              22 | No          |
+|  1 | 2017-06-10 | Sydney     |      12.5 |      18.1 |       38.8 | SSE           |              50 | Yes         |
+|  2 | 2017-06-06 | Canberra   |      -3.2 |      12.8 |        0.2 | SSE           |              56 | No          |
+|  3 | 2017-06-09 | Melbourne  |       6.6 |      15   |        1.8 | S             |              22 | Yes         |
+|  4 | 2017-06-03 | Canberra   |      -4.2 |      15.4 |        0   | W             |              19 | No          |
++----+------------+------------+-----------+-----------+------------+---------------+-----------------+-------------+</code></pre>
+<p>Then look at this fancy selection:</p>
+<pre><code class="language-python">a_rains[(((a_rains.Location == 'Perth') &amp; (a_rains.RainToday == 'No'))
+       | ((a_rains.Location == 'Sydney') &amp; (a_rains.RainToday == 'Yes')))
+       &amp; ~((a_rains.MaxTemp &gt; 10) &amp; (a_rains.Rainfall &gt;= .3))]</code></pre>
+<p>Please, select all rows except that selection and print the result.</p><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+</div>

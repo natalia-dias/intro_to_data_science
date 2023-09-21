@@ -1,0 +1,25 @@
+<h2>Heavy task</h2>
+<div class="step-text">
+<p></p>
+<p>Here you have a part of the Penguins dataset:</p>
+<pre><code class="language-no-highlight">+----+-----------+---------------+--------+
+|    | species   |   body_mass_g | sex    |
+|----+-----------+---------------+--------|
+|  0 | Gentoo    |          5550 | MALE   |
+|  1 | Gentoo    |          5850 | MALE   |
+|  2 | Adelie    |          3975 | MALE   |
+|  3 | Chinstrap |          4050 | MALE   |
+|  4 | Adelie    |          3200 | FEMALE |
+|  5 | Adelie    |          4700 | MALE   |
++----+-----------+---------------+--------+</code></pre>
+<p>The <code class="java">body_mass_g</code> column has the float data type. Select the rows with penguins heavier than 4.5 kilograms, take only the <code class="java">body_mass_g</code> column, and print the result.</p>
+<p>This is what you should get at the end:</p>
+<pre><code class="language-no-highlight">+----+---------------+
+|    |   body_mass_g |
+|----+---------------|
+|  0 |          5550 |
+|  1 |          5850 |
+|  5 |          4700 |
++----+---------------+</code></pre>
+<p>Note that the <code class="java">body_mass_g</code> column should be returned as a DataFrame. </p><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 15 seconds</font><br><br>
+</div>

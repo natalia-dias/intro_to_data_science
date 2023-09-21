@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>df.body_mass_g.agg('sum')/1000</code>
+- text: <code>import numpy as np <br> df.body_mass_g.agg(np.sum)/1000</code>
+- text: <code>df.body_mass_g.agg(sum)/1000</code>
+- text: <code>df.body_mass_g.agg(sum)</code>
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25726#comment
+status: Solved
+record: -1
+local_check: false
